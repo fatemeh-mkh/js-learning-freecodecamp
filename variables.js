@@ -40,3 +40,15 @@ c = c + "From Here!";
 console.log(m);
 console.log(l);
 console.log(c);
+
+// Scape Character '\'
+
+var myStr = "hello \"this is me\" everybody";
+console.log(myStr);
+
+// String can surrounded by 'single quotes' or "double quotes".
+
+myStr = "hello \"this is me\" everybody";
+var str3 = 'hello "everybody"';
+
+console.log(str3);
