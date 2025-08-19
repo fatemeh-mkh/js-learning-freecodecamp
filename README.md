@@ -8,7 +8,7 @@ This repository contains my **JavaScript practice exercises** while I am learnin
 
 ---
 
-## 🚀 About
+##  About
 I have started my journey to strengthen my **JavaScript fundamentals**.  
 This repository will be regularly updated with my exercises, code snippets, and small projects that I build during the course.  
 
@@ -23,24 +23,14 @@ The main focus of this repo is on:
 
 ---
 
-## 📂 Repository Structure
-- `day-1/` → First steps, variables & operators  
-- `day-2/` → Functions, conditionals, loops  
-- `day-3/` → Arrays and objects practice  
-- `day-4/` → DOM manipulation  
-- `day-5/` → Event listeners and form handling  
-- `day-6/` → Mini projects (todo list, calculator, etc.)  
-
----
-
-## 🛠 Tech Stack
+##  Tech Stack
 - **Language:** JavaScript (ES6+)  
 - **Editor:** Visual Studio Code  
 - **Version Control:** Git & GitHub  
 
 ---
 
-## 🎯 Goal
+##  Goal
 By the end of this course and these exercises, I aim to:  
 - Get comfortable with JavaScript basics  
 - Build small interactive projects  
