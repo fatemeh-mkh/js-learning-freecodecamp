@@ -90,3 +90,12 @@ var str6 = "Fatemeh";
 var str7 = "hello my name is " + str6 + " how is it going?"; 
 
 console.log(str7); 
+
+// find string length
+
+var length =0 ;
+var  colorName = "yellow";
+
+length = colorName.length;
+
+console.log(length);
