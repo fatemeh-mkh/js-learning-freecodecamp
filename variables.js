@@ -77,3 +77,16 @@ World
 // Tab space
 let text4 = "Name:\tFatemeh";
 console.log(text4); // Name:    Fatemeh
+
+
+// concatenating Strings
+
+var str5 = "I come first. ";
+str5 += "I come second."
+
+console.log(str5);
+
+var str6 = "Fatemeh";
+var str7 = "hello my name is " + str6 + " how is it going?"; 
+
+console.log(str7); 
