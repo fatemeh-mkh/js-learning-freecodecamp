@@ -52,3 +52,28 @@ myStr = "hello \"this is me\" everybody";
 var str3 = 'hello "everybody"';
 
 console.log(str3);
+
+
+// Single quote inside string
+let text1 = 'It\'s a beautiful day';
+console.log(text1); // It's a beautiful day
+
+// Double quote inside string
+let text2 = "He said: \"JavaScript is fun!\"";
+console.log(text2); // He said: "JavaScript is fun!"
+
+// Backslash in file path
+let path = "C:\\Users\\Fatemeh\\Documents";
+console.log(path);  // C:\Users\Fatemeh\Documents
+
+// New line
+let text3 = "Hello\nWorld";
+console.log(text3);
+/*
+Hello
+World
+*/
+
+// Tab space
+let text4 = "Name:\tFatemeh";
+console.log(text4); // Name:    Fatemeh
