@@ -31,3 +31,10 @@ console.log(person[prop]); // Fatemeh
 // other example
 let car = { "car-brand": "Toyota" };
 console.log(car["car-brand"]);
+
+// find last letter in the string
+
+var firstName = "Ada";
+var lastLetter = firstName[firstName.length - 1];
+
+console.log(lastLetter);
