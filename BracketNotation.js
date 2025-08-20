@@ -38,3 +38,20 @@ var firstName = "Ada";
 var lastLetter = firstName[firstName.length - 1];
 
 console.log(lastLetter);
+
+// get last letter with length
+let word = "JavaScript";
+let lastChar = word[word.length - 1];
+console.log(lastChar);  // "t"
+
+// use slice method for getting last letter of string
+// (ارگومان منفی یعنی از اخر بشمره)
+let word2 = "JavaScript";
+let lastChar2 = word.slice(-1);
+console.log(lastChar2); // "t"
+
+// use charAt method
+let word3 = "JavaScript";
+let lastChar3 = word.charAt(word.length - 1);
+console.log(lastChar3); // "t"
+
