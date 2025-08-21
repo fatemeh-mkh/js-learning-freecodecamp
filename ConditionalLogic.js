@@ -59,3 +59,41 @@ console.log(5 !== '5');     // true   (نوع‌ها فرق دارن)
 console.log(0 !== false);   // true   (نوع‌ها فرق دارن)
 console.log(null !== undefined); // true (نوع‌ها فرق دارن)
 console.log(5 !== 5);       // false  (کاملاً برابرن)
+
+// Comparison Operators
+console.log(5 > 3);    // true
+console.log(5 < 3);    // false
+console.log(5 >= 5);   // true
+console.log(3 <= 2);   // false
+console.log(5 == '5'); // true  (loose equality)
+console.log(5 === '5');// false (strict equality)
+console.log(5 != '5'); // false (loose inequality)
+console.log(5 !== '5');// true  (strict inequality)
+
+// Logical Operators
+console.log(true && false); // false (AND)
+console.log(true || false); // true  (OR)
+console.log(!true);         // false (NOT)
+
+// Unary Operators
+let a = 5;
+console.log(+a);   // 5   
+console.log(-a);   // -5 
+console.log(++a);  // 6   
+console.log(a++);  // 6   
+console.log(--a);  // 6   
+console.log(a--);  // 6   
+
+// Ternary Operator
+let age = 18;
+let canVote = (age >= 18) ? "Yes" : "No";
+console.log(canVote);  // "Yes"
+
+// Type Operators
+console.log(typeof 123);    // "number"
+console.log(typeof "Hi");   // "string"
+console.log(typeof true);   // "boolean"
+
+let arr = [1, 2, 3];
+console.log(Array.isArray(arr)); // true
+
