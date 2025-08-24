@@ -110,3 +110,25 @@ function caseInSwitch(val) {
 
 console.log(caseInSwitch(3));  // → gamma
 console.log(caseInSwitch(7));  // → Not Found
+
+function chainToSwitch(val) {
+    switch (val) {
+        case "bob":
+            val = "marley";
+            break;
+        case 42:
+            val = "answer";
+            break;
+        case 1:
+            val = "there is no #1";
+            break;
+        case 99:
+            val = "Missed me by this much";
+            break;
+        default:
+            val = "Not found";  
+    }
+    return val;
+}
+
+console.log(chainToSwitch(42)); 
