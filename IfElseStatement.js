@@ -34,3 +34,53 @@ if (score >= 90) {
   console.log("Grade: F");
 }
 // خروجی: Grade: B
+
+
+// switch case
+
+function caseInSwitch(val){
+
+    var answer = "";
+
+    switch(val){
+        case 1:
+            answer = "alpha";
+            break;
+         case 2:
+            answer = "beta";
+            break;
+        case 3:
+            answer = "gamma";
+            break;
+        case 4:
+            answer = "delta";
+            break;
+    }
+    return answer;
+}
+
+console.log(caseInSwitch(3));
+
+function testStrictNotEqual(val){
+if(val !== 17){
+    return "Not equal";
+}
+return "equal";
+}
+console.log(testStrictNotEqual(17));
+
+function testElseIf(value){
+
+    if(value  > 10){
+        return "Greater than 10";
+    }
+    else if (value < 5){
+
+        return "smaller than 5";
+    }
+    else{
+
+        return "between 5  and 10";
+    }
+}
+console.log(testElseIf(7));
