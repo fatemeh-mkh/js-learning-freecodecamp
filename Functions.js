@@ -93,3 +93,17 @@ var testArr = [1,2,3,4,5,6]
 console.log("Before: "+ JSON.stringify(testArr));
 console.log(nextInLine(testArr,7));
 console.log("After: " + JSON.stringify(testArr));
+
+// returning early pattern from functions
+
+function abTest(a , b){
+    if(a<0 || b<0){
+        return "undefined"
+    }
+
+    return Math.round(Math.pow(Math.sqrt(a)+ Math.sqrt(b),2));
+}
+
+console.log(abTest(-2,2));
+console.log(abTest(2, 2) );
+console.log(abTest(0, 9));
