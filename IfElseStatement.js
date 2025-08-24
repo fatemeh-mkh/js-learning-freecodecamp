@@ -84,3 +84,29 @@ function testElseIf(value){
     }
 }
 console.log(testElseIf(7));
+
+function caseInSwitch(val) {
+    let answer = "";
+
+    switch (val) {
+        case 1:
+            answer = "alpha";
+            break;
+        case 2:
+            answer = "beta";
+            break;
+        case 3:
+            answer = "gamma";
+            break;
+        case 4:
+            answer = "delta";
+            break;
+        default:
+            answer = "Not Found";  // وقتی هیچ caseی match نشه
+            break;
+    }
+    return answer;
+}
+
+console.log(caseInSwitch(3));  // → gamma
+console.log(caseInSwitch(7));  // → Not Found
