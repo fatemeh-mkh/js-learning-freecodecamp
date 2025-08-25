@@ -296,3 +296,27 @@ console.log(collection["1245"].tracks);    // → []
 // Keep a copy of the collection for tests
 var collectionCopy = JSON.parse(JSON.stringify(collection));
 console.log(collectionCopy["2548"].artist); 
+
+function updateRecords(id , prop , value){
+    if (value === "") {
+        // If value is empty string → delete the property
+        delete collection[id][prop];
+    } else if (prop === "tracks") {
+        // If property is 'tracks' → ensure it's an array and push the value
+        collection[id][prop] = collection[id][prop] || [];
+        collection[id][prop].push(value);
+    } else {
+        // Otherwise → just set/update the property
+        collection[id][prop] = value;
+    }
+    return collection;
+}
+
+
+console.log(updateRecords(1245,"artist" , "Prince"));
+console.log(updateRecords(5439, "artist", "ABBA"));
+console.log(updateRecords(5439, "tracks", "Dancing Queen"));
+console.log(updateRecords(1245, "artist", ""));
+ // this deletes artist
+
+console.log(collection);
