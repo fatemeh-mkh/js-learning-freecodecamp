@@ -260,4 +260,39 @@ var myPlants = [
 console.log(myPlants[0].list[1]);
 
 
+// Record collection
+var collection = {
+    "2548": {
+        "album": "Slippery When Wet",
+        "artist": "Bon Jovi",
+        "tracks": [
+            "Let It Rock",
+            "You Give Love a Bad Name"
+        ]
+    },
+    "2468": {
+        "album": "1999",
+        "artist": "Prince",
+        "tracks": [
+            "1999",
+            "Little Red Corvette"
+        ]
+    },
+    "1245": {
+        "artist": "Robert Palmer",
+        "tracks": []
+    },
+    "5439": {
+        "album": "ABBA Gold"
+        // artist and tracks not defined yet
+    }
+};
 
+console.log(collection["2548"].artist);     // → Bon Jovi
+console.log(collection["2468"].tracks[1]); // → Little Red Corvette
+console.log(collection["1245"].tracks);    // → []
+
+
+// Keep a copy of the collection for tests
+var collectionCopy = JSON.parse(JSON.stringify(collection));
+console.log(collectionCopy["2548"].artist); 
