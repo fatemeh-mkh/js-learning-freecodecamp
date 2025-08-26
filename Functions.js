@@ -108,7 +108,7 @@ console.log(abTest(-2,2));
 console.log(abTest(2, 2) );
 console.log(abTest(0, 9));
 
-// Random function
+// Random function between 0-1
 function randomFraction(){
 
     return Math.random();
@@ -116,3 +116,8 @@ function randomFraction(){
 console.log(randomFraction());
 console.log(randomFraction());
 console.log(randomFraction());
+
+var randomNumBetween0_19 =Math.floor(Math.random() * 20);
+console.log(randomNumBetween0_19);
+var randomNumBetween0_19 =Math.floor(Math.random() * 20);
+console.log(randomNumBetween0_19);
