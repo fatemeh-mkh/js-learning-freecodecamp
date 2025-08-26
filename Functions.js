@@ -142,3 +142,15 @@ console.log("this is randomNumb: " + randomNumb);
 var randomNumb= randomRange(4,9);
 
 console.log("this is randomNumb: " + randomNumb);
+
+
+// Use the parseInt function
+
+function convertToInteger(str){
+return parseInt(str,2);
+}
+var intNum = convertToInteger("10011");
+console.log(intNum);
+
+
+
