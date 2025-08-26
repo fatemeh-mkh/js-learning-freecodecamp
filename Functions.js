@@ -258,3 +258,4 @@ console.log(sum2(5, 10, 15, 20));    // → 50
 console.log(sum2());                 // → 0 (بدون ورودی)
 console.log(sum2(100)); 
 
+

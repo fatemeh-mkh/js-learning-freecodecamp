@@ -88,3 +88,20 @@ function editInPlace(){
 editInPlace();
 console.log(s);
 
+// Spread Operator
+const original = [10, 20, 30];
+const copy = [...original];
+
+copy[0] = 99;
+
+console.log(original); // [10, 20, 30]
+console.log(copy);     // [99, 20, 30]
+
+
+// other example
+const user = { name: "Ali", age: 25 };
+const updatedUser = { ...user, city: "Tehran" };
+
+console.log(updatedUser); 
+// { name: "Ali", age: 25, city: "Tehran" }
+
