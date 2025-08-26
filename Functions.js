@@ -210,3 +210,17 @@ console.log(myConst([1,2,3],[4,5]));
 var myConst =  (arr1 , arr2) => arr1.concat(arr2);
 
 console.log(myConst([1,6,3],[7,5]));
+
+// filter & map
+const realNumberArray = [4, 5.6, -9.8, 42, 6, 8.34, -2];
+
+const squareList = (arr) =>{
+    const squareInteger = arr.filter(num => Number.isInteger(num) && num > 0).
+    map(x => x * x);
+
+    return squareInteger ;
+
+};
+
+const squareInteger = squareList(realNumberArray);
+console.log(squareInteger);
