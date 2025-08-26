@@ -51,3 +51,14 @@ function multiplyAll(arr) {
 var result = multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 console.log(result); 
 
+// ITerate with do while loop
+
+var thisArray = [];
+var i=10;
+
+do{
+    thisArray.push(i);
+    i++;
+}while(i < 5)
+
+    console.log(i , thisArray);
