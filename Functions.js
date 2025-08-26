@@ -121,3 +121,13 @@ var randomNumBetween0_19 =Math.floor(Math.random() * 20);
 console.log(randomNumBetween0_19);
 var randomNumBetween0_19 =Math.floor(Math.random() * 20);
 console.log(randomNumBetween0_19);
+
+
+function randomWholeNum(){
+
+    return Math.floor(Math.random() * 10);
+}
+
+console.log(randomWholeNum());
+console.log(randomWholeNum());
+console.log(randomWholeNum());
