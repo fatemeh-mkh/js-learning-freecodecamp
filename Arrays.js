@@ -71,3 +71,19 @@ let shoppingListObj = [
   { name: "bread", quantity: 1, price: 1.5 },
   { name: "apple", quantity: 6, price: 0.8 }
 ];
+
+// Mutate an Array declared with const
+
+const s = [2,5,7];
+
+function editInPlace(){
+  "use strict";
+
+  s[0]=7;
+  s[1]=5;
+  s[2]=2;
+
+}
+
+editInPlace();
+console.log(s);
