@@ -131,3 +131,14 @@ function randomWholeNum(){
 console.log(randomWholeNum());
 console.log(randomWholeNum());
 console.log(randomWholeNum());
+
+function randomRange(ourMin , ourMax){
+    return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
+};
+
+var randomNumb= randomRange(2,9);
+
+console.log("this is randomNumb: " + randomNumb);
+var randomNumb= randomRange(4,9);
+
+console.log("this is randomNumb: " + randomNumb);
