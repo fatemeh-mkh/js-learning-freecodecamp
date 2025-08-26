@@ -62,3 +62,51 @@ do{
 }while(i < 5)
 
     console.log(i , thisArray);
+
+    // coding challenge
+
+    contacts=[
+        {
+            firstName: "Ali",
+            lastName: "Rezayi",
+            number: "09120000000",
+            likes: ["Music", "Football", "Coding"]
+        },
+
+                {
+            firstName: "Sara",
+            lastName: "Ahmadi",
+            number: "09350000000",
+            likes: ["Books", "Traveling", "Cooking"]
+        },
+                {
+            firstName: "John",
+            lastName: "Doe",
+            number: "+1-555-123-456",
+            likes: ["Movies", "Guitar", "Hiking"]
+        },
+                {
+            firstName: "Mina",
+            lastName: "Karimi",
+            number: "09130000000",
+            likes: ["Photography"]
+        }
+    ];
+
+    function lookUpProfile(name , prop){
+
+        for(var i=0; i<contacts.length ;i++){
+            if(contacts[i].firstName === name){
+                return contacts[i][prop] || "No such property";
+            } 
+        
+        }
+        return "No such contacts found";
+    };
+
+    var data = lookUpProfile("Mina" , "lastName");
+    console.log(data);
+    var data2 = lookUpProfile("John","number");
+    console.log(data2);
+    var data3= lookUpProfile("Sara" , "likes");
+    console.log(data3);
