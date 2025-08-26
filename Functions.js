@@ -152,5 +152,15 @@ return parseInt(str,2);
 var intNum = convertToInteger("10011");
 console.log(intNum);
 
+// function checkSign
+
+function checkSign(num){
+return num>0 ? "positive" 
+: num < 0 ? "negative" :
+ "zero"
+}
+console.log(checkSign(10));
+console.log(checkSign(-10));
+
 
 
