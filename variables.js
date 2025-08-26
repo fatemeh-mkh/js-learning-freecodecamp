@@ -132,3 +132,20 @@ function checkScope(){
 }
 
 console.log(checkScope());
+
+// const keyword
+
+function printManyTimes(str){
+"use strict";
+
+const sentence = str + "is cools!";
+
+sentence = str + "is amazing!";
+
+for(var i=0 ; i< str.length ; i+=2){
+    console.log(sentence);
+
+}
+};
+console.log(
+printManyTimes("cooool !"));
