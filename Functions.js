@@ -224,3 +224,16 @@ const squareList = (arr) =>{
 
 const squareInteger = squareList(realNumberArray);
 console.log(squareInteger);
+
+// write higher order arrow function
+const increment = (
+    function(){
+        return function increment(number , value){
+
+            return number + value;
+        };
+    }
+) ();
+
+console.log(increment(2,5));
+console.log(increment(5));
