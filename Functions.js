@@ -107,3 +107,12 @@ function abTest(a , b){
 console.log(abTest(-2,2));
 console.log(abTest(2, 2) );
 console.log(abTest(0, 9));
+
+// Random function
+function randomFraction(){
+
+    return Math.random();
+}
+console.log(randomFraction());
+console.log(randomFraction());
+console.log(randomFraction());
