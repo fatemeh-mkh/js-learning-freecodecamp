@@ -184,4 +184,16 @@ return MATH_CONSTANTS.PI;
 const PI= freezeObject();
 console.log(PI);
 
+// Anonymous function
 
+var magic = function(){
+    return new Date();
+};
+
+// instead function keyword
+var magic = () =>{
+    return new Date();
+};
+
+// the shortest version
+const magic = () => new Date();
