@@ -186,14 +186,27 @@ console.log(PI);
 
 // Anonymous function
 
-var magic = function(){
-    return new Date();
-};
+// var magic = function(){
+//     return new Date();
+// };
 
-// instead function keyword
-var magic = () =>{
-    return new Date();
-};
+// // instead function keyword
+// var magic = () =>{
+//     return new Date();
+// };
 
-// the shortest version
-const magic = () => new Date();
+// // the shortest version
+// const magic = () => new Date();
+
+
+// Arrow functions
+
+var myConst = function (arr1 , arr2){
+    return arr1.concat(arr2);
+
+}
+console.log(myConst([1,2,3],[4,5]));
+
+var myConst =  (arr1 , arr2) => arr1.concat(arr2);
+
+console.log(myConst([1,6,3],[7,5]));
