@@ -99,3 +99,17 @@ var  colorName = "yellow";
 length = colorName.length;
 
 console.log(length);
+
+let catName = "Quincy";
+let quote;
+catName = "Beau"; 
+
+function catTalk(){
+  "use strict";
+
+  let catName1 = "Oliver";
+  quote = catName1 + " Says Meow!";
+  return quote; // 
+}
+
+console.log(catTalk());
